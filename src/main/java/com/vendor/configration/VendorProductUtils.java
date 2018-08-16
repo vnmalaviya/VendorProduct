@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import com.vendor.entityBeans.VendorProduct;
+
 public class VendorProductUtils {
 
 	public static List<VendorProduct> findNonConflicts(List<VendorProduct> vendorProducts) {
